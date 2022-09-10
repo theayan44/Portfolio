@@ -1,0 +1,82 @@
+.contact {
+    display: flex;
+    margin-top: 7rem;
+    height: 80vh;
+}
+
+.c-left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+    position: relative;
+}
+
+.c-left span:nth-of-type(1) {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: var(--black);
+}
+
+.c-left span:nth-of-type(2) {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: var(--blue);
+}
+
+.c-blur1 {
+    background: #ABF1FF94;
+    top: 14rem;
+    left: -12rem;
+}
+
+.c-right {
+    display: flex;
+    flex: 1;
+    position: relative;
+}
+
+.c-right>form {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+    border: 1px solid var(--blueCard);
+    background: var(--blueCard);
+    padding: 2rem 2rem 0rem 2rem;
+    border-radius: 20px;
+    margin-top: -2rem;
+    margin-bottom: 10rem;
+    transition: all ease-in-out 0.4s;
+}
+
+.c-right>form:hover {
+    cursor: grab;
+    box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.75);
+}
+
+.user {
+    width: 20rem;
+    height: 2rem;
+    padding: 0.3rem;
+    outline: none;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+.user:focus {
+    border: 2px solid rgba(42, 118, 229, 0.6);
+}
+
+textarea {
+    height: 4rem !important;
+}
+
+.c-blur2 {
+    background: var(--purple);
+    top: 0rem;
+    left: 0rem;
+}
