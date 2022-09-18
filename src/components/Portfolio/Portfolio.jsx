@@ -5,7 +5,7 @@ import 'swiper/css';
 import Quiz from '../../img/QuizScr.png';
 import Calc from '../../img/CalScr.png';
 import PortfolioScr from '../../img/PortfolioScr.png';
-import MusicApp from '../../img/musicapp.png';
+// import MusicApp from '../../img/musicapp.png';
 import { Pagination, Autoplay } from 'swiper';
 import 'swiper/css/pagination';
 
@@ -26,6 +26,15 @@ const Portfolio = () => {
                 className="portfolio-slider"
                 style={{ position: 'relative', left: '0.5rem' }}>
 
+                <SwiperSlide>
+                    <img src={Quiz} alt="" />
+                </SwiperSlide>
+                <SwiperSlide>
+                    <img src={Calc} alt="" />
+                </SwiperSlide>
+                <SwiperSlide>
+                    <img src={PortfolioScr} alt="" />
+                </SwiperSlide>
                 <SwiperSlide>
                     <img src={Quiz} alt="" />
                 </SwiperSlide>
